@@ -15,19 +15,19 @@ $results = $api->category(array(
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="/resources/tableauwdc-1.1.1.js" type="text/javascript"></script>
+	<script src="resources/tableauwdc-1.1.1.js" type="text/javascript"></script>
 	<script type="text/javascript" src="resources/eia.js"></script>
-	<script type="text/javascript" src="/resources/tableau-output.js"></script>
+	<script type="text/javascript" src="resources/tableau-output.js"></script>
 	<link rel="stylesheet" href="resources/eia.css" />
-	<link rel="stylesheet" href="/resources/wdc.css" />
+	<link rel="stylesheet" href="resources/wdc.css" />
 </head>
 
 <body>
 	<div class="navbar navbar-default">
 		<a class="navbar-wdc" href="/">
-			<img id="wdc-logo-left" src="/resources/WDC_Logo.png" />
+			<img id="wdc-logo-left" src="resources/WDC_Logo.png" />
 			<div id="wdc-logo-right">
-				<img src="/resources/WDC_Logo_Header.png" />
+				<img src="resources/WDC_Logo_Header.png" />
 				<span>U.S. ENERGY DATA</span>
 			</div>
 		</a>
@@ -35,7 +35,7 @@ $results = $api->category(array(
 			<img src="https://www.interworks.com/logo/images/logo.png" />
 		</a>
 		<div class="navbar-border">
-			<img src="/resources/WDC_Border.png" />
+			<img src="resources/WDC_Border.png" />
 		</div>
 	</div>
 	<div class="container">
@@ -72,7 +72,7 @@ $results = $api->category(array(
 	</div>
 	<footer class="footer">
 		<div class="navbar-border">
-			<img src="/resources/WDC_Border.png" />
+			<img src="resources/WDC_Border.png" />
 		</div>
 		<div class="container">
 			<p class="text-muted">All data is &copy;<a href="http://www.eia.gov/" target="_blank">U.S. Energy Information Administration</a>. Please refer to the <a href="http://www.eia.gov/about/copyrights_reuse.cfm" target="_blank">TOS</a> for usage terms.</p>
